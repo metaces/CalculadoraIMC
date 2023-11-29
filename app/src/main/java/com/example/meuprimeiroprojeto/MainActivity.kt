@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -14,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val buttonCalculate: Button = findViewById<Button>(R.id.buttonCalculate)
-        val editWeight: EditText = findViewById<EditText>(R.id.editWeight)
+        val buttonCalculate: Button = findViewById(R.id.buttonCalculate)
+        val editWeight: EditText = findViewById(R.id.editWeight)
         val editHeight: EditText = findViewById(R.id.editHeight)
 
         buttonCalculate.setOnClickListener {
@@ -36,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 startActivity(intent)
             } else {
-                Toast.makeText(this, "Preencher todos os campos", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Fields empty", Toast.LENGTH_LONG).show()
             }
 
         }
