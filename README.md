@@ -1,16 +1,29 @@
 # IMC_Calculator
-An Android to show how to calculate IMC
+An Android to show how to calculate IMC - First project from 10D Challenge - DevSpace Community
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 <img src="/results/image1.png" width="260">&emsp;<img src="/results/image2.png" width="260">&emsp;<img src="/results/image3.png" width="260">
 
 ## Knowledge Stack
-* Kotlin 100%
+* Kotlin
+* Activity para host de telas
+* ViewGroup
+    * RelativeLayout
+    * LinearLayout
+- Components de UI
+    - TextView
+    - EditText
+    - Button
+- Toast
+- Intent
+- FindViewById 
+- String resource
 
 ## Testing stack
 
 ### TODO
+- Melhorar estilização do app
 
 ## Running test
 
