@@ -7,11 +7,11 @@ An Android to show how to calculate IMC - First project from 10D Challenge - Dev
 
 ## Knowledge Stack
 * Kotlin
-* Activity para host de telas
+* Activity
 * ViewGroup
     * RelativeLayout
     * LinearLayout
-- Components de UI
+- UI Components
     - TextView
     - EditText
     - Button
@@ -23,7 +23,7 @@ An Android to show how to calculate IMC - First project from 10D Challenge - Dev
 ## Testing stack
 
 ### TODO
-- Melhorar estilização do app
+- Update layout for better UX/UI 
 
 ## Running test
 
